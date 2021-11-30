@@ -1,0 +1,26 @@
+
+  
+
+#kidImage{
+  position: relative;
+  display: flex;   
+  float: right;
+  margin: 1%;
+  margin-bottom: 2%;
+
+}
+
+#favelas{
+  width: 100%;
+  margin-bottom: 5%;
+  
+}
+
+footer{
+  margin-top: 1%;
+}
+
+.img-thumbnail {
+  box-shadow: 10px 10px 5px #15268b;
+}
+

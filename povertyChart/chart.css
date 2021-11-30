@@ -1,0 +1,15 @@
+.chart{
+  display: flex;
+  align-items: center;
+  justify-content:  center;  
+  
+}
+
+
+
+/*center list*/
+.list {
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+}

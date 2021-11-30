@@ -1,0 +1,112 @@
+
+#Brazil-Water-Crisis {
+  display: flex;
+  position: left;
+  flex-wrap: wrap;
+  width: 100px;
+	height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0 15px 0 0;
+}
+
+
+
+
+
+#Brazil Drought {
+  display: flex;
+  position: left;
+  float: left;
+  text-align: center;
+  width: 100px;
+	height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0 15px 0 0;
+}
+
+
+    
+
+
+.row {
+  --mdb-gutter-x: 1.5rem;
+  --mdb-gutter-y: 1.5rem;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin-left: 0 15px 0 0; 
+  margin-right: relative;
+  position: absolute;
+}
+
+.img-thumbnail {
+  box-shadow: 10px 10px 5px #15268b;
+}
+
+#Wetlands {
+  position: relative;
+  display: flex;   
+  float: right;
+  margin: 1%;
+  margin-bottom: 2%;
+
+}
+
+#CearaRiver {
+  position: relative;
+  display: flex;   
+  float: left;
+  margin: 1%;
+  margin-bottom: 2%;
+
+}
+
+
+
+
+#cfg6a-FadeInOut {
+  position: relative;
+  display: flex;
+  top: 200px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #15268b;
+  height: 280px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+#cfg6a img {
+  position:absolute;
+  width: 100%;
+  height: 280px;
+  left: 0;
+  animation-name: FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+#cfg6a img:nth-of-type(1){
+animation-delay: 10s;
+}
+#cfg6a img:nth-of-type(2){
+  animation-delay: 8s;
+}
+#cfg6a img:nth-of-type(3){
+  animation-delay: 6s;
+}
+#cfg6a img:nth-of-type(4){
+  animation-delay: 4s;
+}
+#cf6ga img:nth-of-type(5){
+  animation-delay: 2s;
+}
+#cfg6a img:nth-of-type(6){
+  animation-delay: 0;
+}
